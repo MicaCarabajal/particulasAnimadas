@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Particulas</title>
+</head>
+    <style>
+         body{
+             background-image: url("photo-1508051306307-b36f794302a6.jpg");
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+         }
+    </style>
+<body id="particles-js">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+        particlesJS.load('particles-js', 'particles.json', function() {
+          console.log('callback - particles.js config loaded');
+        });
+    </script>
+    <script src="particles.json"></script>
+</body>
+</html>
